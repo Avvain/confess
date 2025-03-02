@@ -7,10 +7,10 @@ $(document).ready(function () {
         desc: "✨Beauty in the Brain ✨"
     }, {
         title: "",
-        desc: "rinn kitakan udah sering chatan dan lumayan intens ya? menurutku iya sih, sebenarnya, aku udah lama tertarik sama kamu rin. dari pertama kali kita belajar bareng buat olimpiade sampai lihat kamu juara waktu itu, aku selalu kagum. kamu itu pinter, imut, dan punya sesuatu yang bikin orang susah buat ngga terpesona. ada satu hal yang bikin aku penasaran. aku ngerasa setiap kali kamu lihat aku, tatapanmu lama banget, kayak lagi lihat hantu. entah itu cuma perasaanku atau emang aku ada yang aneh? haha tapi ya, gapapa sih, mau diliatin kayak gimana pun, aku tetap suka lihat kamu apalagi jadi versi terbaik dari diri kamu rinn.."
+        desc: "rinn kitakan udah sering chatan dan lumayan intens ya? menurutku iya sih, sebenarnya, aku udah lama tertarik sama kamu rin. dari pertama kali kita belajar bareng buat olimpiade sampai lihat kamu juara waktu itu, aku selalu kagum. kamu itu pinter, imut, dan punya sesuatu yang bikin orang susah buat ngga terpesona ahaha."
     }, {
         title: "",
-        desc: "ngga cuma itu, aku juga mau menyampaikan sesuatu yang sebenarnya lebih ingin aku sampaikan langsung yang mungkin kamu ngga ada waktu, jadi aku ungkapin di sini aja. aku terus terang aja, aku mau confess ke kamu rinn. mungkin menyatakan perasaan itu hal yang cukup serius, banyak yang akan dikorbankan, dan hasil akhirnya bisa macam2. tapi setidaknya, buat aku, melepas sesuatu yang udah lama tersimpan itu melegakan, meskipun bukan hal yang mudah. masalah diterima atau engga, itu tergantung kamu dan aku juga nggak bakal berharap lebih kok."
+        desc: "ngga cuma itu, aku juga mau menyampaikan sesuatu yang sebenarnya lebih ingin aku sampaikan langsung yang mungkin kamu ngga ada waktu, jadi aku ungkapin di sini aja. aku terus terang aja, aku mau confess ke kamu rinn. mungkin menyatakan perasaan itu hal yang cukup serius, banyak yang akan dikorbankan, dan hasil akhirnya bisa macam2. tapi setidaknya, buat aku, melepas sesuatu yang udah lama tersimpan itu melegakan, meskipun bukan hal yang mudah." 
     }, {
         title: "",
         desc: "yah, mungkin aku juga udah mau lulus ga lama lagi. tapi sebelum kelulusan itu, aku cuma mau jujur… I have a crush on you. kalau kamu risih, bilang aja ya (walaupun aku yakin engga sih wkwkwk). tapi kalau ternyata kamu udah punya pacar, maaf ya karena aku confess ke kamu... mungkin segitu aja dari aku. hehehe, makasih ya udah mau baca✨"
