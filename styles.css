@@ -1,0 +1,164 @@
+/* General Styles */
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    font-family: 'Cinzel', serif;
+    overflow: hidden;
+}
+
+#soup-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Navigation Buttons */
+#soup-nav {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9002;
+    display: flex;
+    gap: 20px;
+}
+
+#soup-nav button {
+    background-color: #8B4513;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#soup-nav button:hover {
+    background-color: #A0522D;
+}
+
+#soup-prev {
+    background-color: #6B4423;
+}
+
+#soup-prev:hover {
+    background-color: #8B4513;
+}
+
+/* Text Styles */
+.soup-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.soup-desc {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Letter Wrapping */
+.letters-wrap {
+    position: absolute;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.letters-wrap.mutable {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.letters-wrap.mutable .letter {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: left 2s, top 2s, color 2s, opacity 2s;
+    color: #AAA;
+    opacity: 0;
+}
+
+.letters-wrap.mutable .letter.active {
+    color: #111;
+    z-index: 9001;
+    opacity: 1;
+}
+
+.letters-wrap.position-data {
+    top: 50%;
+    left: 50%;
+    visibility: hidden;
+    transform: translate(-50%, -50%);
+}
+
+/* Love Animation */
+.love {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    animation: love 2s ease-in-out 3;
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
+}
+
+.love::before,
+.love::after {
+    content: "";
+    position: absolute;
+    background-color: inherit;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.love::before {
+    top: -100px;
+    left: 0;
+}
+
+.love::after {
+    top: 0;
+    left: 100px;
+}
+
+/* Warna Love */
+.love.pink {
+    background-color: #F987C5;
+}
+
+.love.blue {
+    background-color: #00BFFF;
+}
+
+.love.purple {
+    background-color: #62339C;
+}
+
+.love.red {
+    background-color: red;
+    animation-iteration-count: infinite;
+}
+
+@keyframes love {
+    0%, 100% {
+        transform: translate(-50%, -50%) rotate(-45deg) scale(1);
+    }
+    50% {
+        transform: translate(-50%, -50%) rotate(-45deg) scale(0.8);
+    }
+}
